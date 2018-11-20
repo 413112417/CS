@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server.contorller.impl;
+package pers.hexuren.cs.httpserver.contorller.impl;
 
 import com.alibaba.fastjson.JSON;
 
@@ -7,8 +7,8 @@ import org.nanohttpd.protocols.http.NanoHTTPD;
 import org.nanohttpd.protocols.http.response.Response;
 import org.nanohttpd.protocols.http.response.Status;
 
-import pers.hexuren.cs.server.contorller.Controller;
-import pers.hexuren.cs.server.data.bean.TestResponse;
+import pers.hexuren.cs.httpserver.contorller.Controller;
+import pers.hexuren.cs.httpserver.data.bean.TestResponse;
 
 public class TestController implements Controller {
 

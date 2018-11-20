@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server.data;
+package pers.hexuren.cs.httpserver.data;
 
 import org.nanohttpd.protocols.http.IHTTPSession;
 import org.nanohttpd.protocols.http.content.Cookie;

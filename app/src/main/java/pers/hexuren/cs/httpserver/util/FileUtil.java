@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server.util;
+package pers.hexuren.cs.httpserver.util;
 
 
 import android.content.Context;

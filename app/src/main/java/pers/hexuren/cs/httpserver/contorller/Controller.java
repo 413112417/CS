@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server.contorller;
+package pers.hexuren.cs.httpserver.contorller;
 
 import org.nanohttpd.protocols.http.IHTTPSession;
 import org.nanohttpd.protocols.http.response.Response;

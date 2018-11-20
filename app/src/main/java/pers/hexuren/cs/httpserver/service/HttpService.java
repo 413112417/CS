@@ -1,10 +1,10 @@
-package pers.hexuren.cs.server.service;
+package pers.hexuren.cs.httpserver.service;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 
-import pers.hexuren.cs.server.HttpServer;
+import pers.hexuren.cs.httpserver.HttpServer;
 
 public class HttpService extends Service {
 

@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server.data.bean;
+package pers.hexuren.cs.httpserver.data.bean;
 
 /**
  * Created by xjh on 18-9-10.

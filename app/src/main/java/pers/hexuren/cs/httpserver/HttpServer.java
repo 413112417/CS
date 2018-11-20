@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server;
+package pers.hexuren.cs.httpserver;
 
 import android.content.Context;
 
@@ -12,11 +12,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import pers.hexuren.cs.server.contorller.Controller;
-import pers.hexuren.cs.server.util.FileUtil;
-import pers.hexuren.cs.server.util.Logger;
-import pers.hexuren.cs.server.util.RequestDispatcher;
-import pers.hexuren.cs.server.util.ResourceReader;
+import pers.hexuren.cs.httpserver.contorller.Controller;
+import pers.hexuren.cs.httpserver.util.FileUtil;
+import pers.hexuren.cs.httpserver.util.Logger;
+import pers.hexuren.cs.httpserver.util.RequestDispatcher;
+import pers.hexuren.cs.httpserver.util.ResourceReader;
 
 
 /**

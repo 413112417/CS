@@ -1,4 +1,4 @@
-package pers.hexuren.cs.server.data.bean;
+package pers.hexuren.cs.httpserver.data.bean;
 
 public class TestResponse {
     private String msg;
