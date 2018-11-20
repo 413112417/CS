@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".httpserver.service.HttpService" />
+        <service android:name=".server.service.HttpService" />
     </application>
 
 </manifest>

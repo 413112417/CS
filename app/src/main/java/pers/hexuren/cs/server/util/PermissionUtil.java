@@ -1,4 +1,4 @@
-package pers.hexuren.cs.httpserver.util;
+package pers.hexuren.cs.server.util;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;

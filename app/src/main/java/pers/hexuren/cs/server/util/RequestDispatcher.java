@@ -1,8 +1,8 @@
-package pers.hexuren.cs.httpserver.util;
+package pers.hexuren.cs.server.util;
 
 
-import pers.hexuren.cs.httpserver.contorller.Controller;
-import pers.hexuren.cs.httpserver.contorller.impl.TestController;
+import pers.hexuren.cs.server.contorller.Controller;
+import pers.hexuren.cs.server.contorller.impl.TestController;
 
 /**
  * Created by hexuren on 18-5-14.

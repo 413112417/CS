@@ -3,7 +3,7 @@ package pers.hexuren.cs;
 import android.app.Application;
 import android.content.Intent;
 
-import pers.hexuren.cs.httpserver.service.HttpService;
+import pers.hexuren.cs.server.service.HttpService;
 
 public class App extends Application {
 
