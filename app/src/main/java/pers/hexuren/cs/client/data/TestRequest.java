@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import pers.hexuren.cs.client.http.HttpRequest;
+import pers.hexuren.cs.client.setting.ClientSetting;
 
 public class TestRequest extends HttpRequest<TestResponse> {
 
@@ -16,6 +17,6 @@ public class TestRequest extends HttpRequest<TestResponse> {
 
     @Override
     protected String getUrl() {
-        return "http://127.0.0.1:8000/test";
+        return ClientSetting.getHttpServerIp() + "/test";
     }
 }

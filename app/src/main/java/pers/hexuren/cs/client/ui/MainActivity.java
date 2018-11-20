@@ -1,5 +1,6 @@
 package pers.hexuren.cs.client.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -9,6 +10,7 @@ import pers.hexuren.cs.R;
 import pers.hexuren.cs.client.data.TestRequest;
 import pers.hexuren.cs.client.data.TestResponse;
 import pers.hexuren.cs.client.http.HttpCallback;
+import pers.hexuren.cs.client.setting.SettingsActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,5 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("asd", "onError: " + t.getMessage());
             }
         });
+    }
+
+    public void setting(View view) {
+        startActivity(new Intent(this, SettingsActivity.class));
     }
 }
