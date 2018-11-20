@@ -3,6 +3,7 @@ package pers.hexuren.cs.client.ui;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 
 import pers.hexuren.cs.R;
 import pers.hexuren.cs.client.data.TestRequest;
@@ -17,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+    }
+
+    public void test(View view) {
         new TestRequest().postMap(new HttpCallback<TestResponse>() {
             @Override
             public void onResponse(TestResponse httpResponse) {
